@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Bon Appetit</string>
+    <string name="txtEmail">Email</string>
+    <string name="txtSenha">Senha</string>
+    <string name="btEntrar">Entrar</string>
+    <string name="btCriar_login">Criar uma conta</string>
+    <string name="title_activity_criar_conta">Criar Conta</string>
+    <string name="txtNome">Nome</string>
+    <string name="txtTelefone">Telefone</string>
+    <string name="txtEmail_Conta">Email</string>
+    <string name="txtSenha_Conta">Senha</string>
+    <string name="txtNovamente_Senha">Digite Novamente a Senha</string>
+    <string name="Cadastrarbt">Cadastrar</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="txtMenu">Menu</string>
+    <string name="bt_Pratos">Pratos</string>
+    <string name="bt_Sobremesas">Sobremesas</string>
+    <string name="bt_Bebidas">Bebidas</string>
+    <string name="bt_MeuPedido">Meu Pedido</string>
+    <string name="title_activity_pratos">Pratos</string>
+
+</resources>
