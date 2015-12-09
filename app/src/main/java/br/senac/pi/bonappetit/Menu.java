@@ -27,6 +27,7 @@ public class Menu extends AppCompatActivity {
         });
 
         findViewById(R.id.btPratos).setOnClickListener(abrirPratos());
+        findViewById(R.id.btSobremesas).setOnClickListener(abrirSobremesas());
     }
 
     private View.OnClickListener abrirPratos() {
@@ -38,5 +39,13 @@ public class Menu extends AppCompatActivity {
             };
         };
     }
+    private View.OnClickListener abrirSobremesas() {
+        return new View.OnClickListener(){
+            public void onClick(View v){
+                Intent intent = new Intent(Menu.this,Sobremesas.class);
+                startActivity(intent);
 
+            };
+        };
+    }
 }
