@@ -28,7 +28,10 @@ public class Menu extends AppCompatActivity {
 
         findViewById(R.id.btPratos).setOnClickListener(abrirPratos());
         findViewById(R.id.btSobremesas).setOnClickListener(abrirSobremesas());
+        findViewById(R.id.btBebidas).setOnClickListener(abrirBebidas());
+        findViewById(R.id.btMeuPedido).setOnClickListener(abrirMeuPedido());
     }
+
 
     private View.OnClickListener abrirPratos() {
         return new View.OnClickListener(){
@@ -43,6 +46,26 @@ public class Menu extends AppCompatActivity {
         return new View.OnClickListener(){
             public void onClick(View v){
                 Intent intent = new Intent(Menu.this,Sobremesas.class);
+                startActivity(intent);
+
+            };
+        };
+    }
+
+    private View.OnClickListener abrirBebidas() {
+        return new View.OnClickListener(){
+            public void onClick(View v){
+                Intent intent = new Intent(Menu.this,Bebidas.class);
+                startActivity(intent);
+
+            };
+        };
+    }
+
+    private View.OnClickListener abrirMeuPedido() {
+        return new View.OnClickListener(){
+            public void onClick(View v){
+                Intent intent = new Intent(Menu.this,MeuPedido.class);
                 startActivity(intent);
 
             };

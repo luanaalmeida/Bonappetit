@@ -20,15 +20,24 @@
     <string name="title_activity_pratos">Pratos</string>
     <string name="txtCarne">Carne ao molho Madeira</string>
     <string name="txtIngCarne">Carne, molho madeira, castanha e salsinha</string>
-    <string name="btCarnes">Fazer Pedido</string>
+    <string name="btFazerPedido">Fazer Pedido</string>
     <string name="txtPicadinho">Picadinho à jardineira</string>
     <string name="txtIngPicadinho">Alcatra em cubos, Arroz, Legumes e Azeite</string>
     <string name="title_activity_sobremesas">Sobremesas</string>
     <string name="txtRocambole">Rocambole de chocolate com doce de leite</string>
     <string name="txtIngRocambole">Sorvete de doce de Leite, calda de chocolate e rocambole de chocolate amargo</string>
-    <string name="btRocambole">Fazer Pedido</string>
     <string name="txttaçaUruguaia">Taça Uruguaia</string>
     <string name="txtIngtaçaUruguaia">Doce de leite, Nata, Sorvete de creme, Pêssego em calda, Merengue e Cobertura de caramelo</string>
-    <string name="bttaçaUruguaia">Fazer pedido</string>
+    <string name="title_activity_bebidas">Bebidas</string>
+    <string name="txtCerveja">Skol Beats Sense 330 ml</string>
+    <string name="txtCoca">Coca Cola 237 ml</string>
+    <string name="valorCoca">Valor:</string>
+    <string name="title_activity_meus_pedido">MeusPedido</string>
+    <string name="title_activity_pedido1">Pedido1</string>
+    <string name="title_activity_pedido_carne">PedidoCarne</string>
+    <string name="Porcao">Quantidade:</string>
+    <string name="ValorCarne">Valor: R$ 25,00</string>
+    <string name="Somar">Somar</string>
+    <string name="valorTotal">Valot total:</string>
 
 </resources>

@@ -1,3 +1,6 @@
+<<<<<<< Original
+<<<<<<< Original
+<<<<<<< Original
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.senac.pi.bonappetit" >
@@ -35,6 +38,60 @@
             android:label="@string/title_activity_sobremesas"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".Bebidas"
+            android:label="@string/title_activity_bebidas"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".MeusPedido"
+            android:label="@string/title_activity_meus_pedido"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".PedidoCarne"
+            android:label="@string/title_activity_pedido1"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
+
+=======
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <application>
+        <activity android:name="br.senac.pi.bonappetit.PedidoCarne"
+                    android:label="@string/title_activity_pedido_carne"
+                android:theme="@style/AppTheme.NoActionBar"
+>
+        </activity>
+    </application>
+</manifest>
+>>>>>>> Added
+
+=======
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <application>
+        <activity android:name="br.senac.pi.bonappetit.PedidoCarne"
+                    android:label="@string/title_activity_pedido_carne"
+                android:theme="@style/AppTheme.NoActionBar"
+>
+        </activity>
+    </application>
+</manifest>
+>>>>>>> Added
+
+=======
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <application>
+        <activity android:name="br.senac.pi.bonappetit.Pedido1"
+                    android:label="@string/title_activity_pedido1"
+                android:theme="@style/AppTheme.NoActionBar"
+>
+        </activity>
+    </application>
+</manifest>
+>>>>>>> Added
